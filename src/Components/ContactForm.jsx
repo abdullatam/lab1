@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 
 export default function ContactForm({ addContact }) {
 
@@ -23,7 +23,7 @@ export default function ContactForm({ addContact }) {
         onChange={(e) => setFullName(e.target.value)}
       />
 
-      
+
       <input
         type="email"
         placeholder="Email"
